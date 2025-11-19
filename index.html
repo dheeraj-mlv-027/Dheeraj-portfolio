@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dheeraj M.L.V | RAW_PORTFOLIO</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@300;500;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              sans: ['"Lexend Mega"', 'sans-serif'],
+              mono: ['"Space Mono"', 'monospace'],
+            },
+            colors: {
+              neo: {
+                bg: '#FDFBF7',     // Off-white paper
+                black: '#121212',  // Soft black
+                white: '#ffffff',
+                yellow: '#FFDE59', // Intense Yellow
+                pink: '#FF5790',   // Hot Pink
+                blue: '#5D5FEF',   // Blurple
+                green: '#7CFF5F',  // Acid Green
+                purple: '#8B5CF6',
+                orange: '#FB923C',
+              }
+            },
+            boxShadow: {
+              'neo': '5px 5px 0px 0px #121212',
+              'neo-sm': '3px 3px 0px 0px #121212',
+              'neo-lg': '8px 8px 0px 0px #121212',
+              'neo-xl': '12px 12px 0px 0px #121212',
+            },
+            borderWidth: {
+              '3': '3px',
+            },
+            animation: {
+              'marquee': 'marquee 20s linear infinite',
+              'marquee-reverse': 'marquee 20s linear infinite reverse',
+            },
+            keyframes: {
+              marquee: {
+                '0%': { transform: 'translateX(0%)' },
+                '100%': { transform: 'translateX(-100%)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #FDFBF7;
+        color: #121212;
+        overflow-x: hidden;
+      }
+      
+      /* Custom Scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+        background: #121212;
+      }
+      ::-webkit-scrollbar-thumb {
+        background: #FFDE59;
+        border: 2px solid #121212;
+      }
+      ::-webkit-scrollbar-thumb:hover {
+        background: #FF5790;
+      }
+
+      ::selection {
+        background: #121212;
+        color: #FFDE59;
+      }
+
+      .neo-card {
+        background: white;
+        border: 3px solid #121212;
+        box-shadow: 5px 5px 0px 0px #121212;
+        transition: all 0.2s ease-in-out;
+      }
+      
+      .neo-card:hover {
+        transform: translate(-2px, -2px);
+        box-shadow: 8px 8px 0px 0px #121212;
+      }
+
+      .neo-button {
+        transition: all 0.1s ease;
+      }
+      
+      .neo-button:active {
+        transform: translate(4px, 4px);
+        box-shadow: 0px 0px 0px 0px #121212 !important;
+      }
+
+      /* Diagonal Lines Pattern */
+      .bg-pattern {
+        background-image: repeating-linear-gradient(45deg, #121212 0, #121212 1px, transparent 0, transparent 50%);
+        background-size: 10px 10px;
+        opacity: 0.1;
+      }
+    </style>
+  <script type="importmap">
+{
+  "imports": {
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.554.0",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "three": "https://aistudiocdn.com/three@^0.181.2",
+    "framer-motion": "https://aistudiocdn.com/framer-motion@^12.23.24",
+    "@react-three/drei": "https://aistudiocdn.com/@react-three/drei@^10.7.7",
+    "@react-three/fiber": "https://aistudiocdn.com/@react-three/fiber@^9.4.0"
+  }
+}
+</script>
+</head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
