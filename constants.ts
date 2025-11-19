@@ -29,10 +29,6 @@ export const EXPERIENCES: Experience[] = [
     period: "Dec 2024 – Present",
     location: "Gurgaon, Haryana",
     description: [
-      "Architected the Mail Minion workflow engine integrating SendGrid and Zoho webhooks with LangGraph-powered agents to process inbound emails, reducing manual intervention by 60%.",
-      "Engineered multi-channel data import/export pipelines handling diverse data sources, reducing support hours by 90%.",
-      "Designed core Fee Invoicing and Invoice Management modules enabling automated revenue computation.",
-      "Revamped pricing infrastructure with multiple supplier channels and automated marketplace scraping using rotating proxies."
     ]
   },
   {
